@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Secretos de Streamlit (el config.toml sí se sube)
+.streamlit/secrets.toml
+.env
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Datos y modelos generados por run_pipeline.py.
+# Se suben para que el dashboard funcione al clonar (pesan ~27 MB).
+# Descomenta estas líneas si prefieres que cada quien los regenere:
+# data/
+# models/
+# reports/

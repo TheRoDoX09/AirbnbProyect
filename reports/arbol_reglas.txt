@@ -1,0 +1,94 @@
+|--- tipo_habitacion_Casa/depto completo <= 0.50
+|   |--- num_resenas <= 1.50
+|   |   |--- huespedes <= 1.50
+|   |   |   |--- disponibilidad_365 <= 364.50
+|   |   |   |   |--- disponibilidad_365 <= 333.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- disponibilidad_365 >  333.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- disponibilidad_365 >  364.50
+|   |   |   |   |--- anuncios_del_anfitrion <= 1.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- anuncios_del_anfitrion >  1.50
+|   |   |   |   |   |--- class: 0
+|   |   |--- huespedes >  1.50
+|   |   |   |--- bano_compartido <= 0.50
+|   |   |   |   |--- anuncios_del_anfitrion <= 3.50
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- anuncios_del_anfitrion >  3.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- bano_compartido >  0.50
+|   |   |   |   |--- huespedes <= 3.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- huespedes >  3.50
+|   |   |   |   |   |--- class: 0
+|   |--- num_resenas >  1.50
+|   |   |--- bano_compartido <= 0.50
+|   |   |   |--- huespedes <= 3.50
+|   |   |   |   |--- huespedes <= 1.50
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- huespedes >  1.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- huespedes >  3.50
+|   |   |   |   |--- calificacion <= 4.90
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- calificacion >  4.90
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- bano_compartido >  0.50
+|   |   |   |--- huespedes <= 2.50
+|   |   |   |   |--- banos <= 0.75
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- banos >  0.75
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- huespedes >  2.50
+|   |   |   |   |--- num_resenas <= 12.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num_resenas >  12.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|--- tipo_habitacion_Casa/depto completo >  0.50
+|   |--- banos <= 1.25
+|   |   |--- num_amenidades <= 39.50
+|   |   |   |--- anuncios_del_anfitrion <= 93.00
+|   |   |   |   |--- num_resenas <= 6.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num_resenas >  6.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- anuncios_del_anfitrion >  93.00
+|   |   |   |   |--- num_resenas <= 77.00
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- num_resenas >  77.00
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- num_amenidades >  39.50
+|   |   |   |--- num_amenidades <= 48.50
+|   |   |   |   |--- alcaldia_Cuauhtémoc <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- alcaldia_Cuauhtémoc >  0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- num_amenidades >  48.50
+|   |   |   |   |--- anuncios_del_anfitrion <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- anuncios_del_anfitrion >  5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |--- banos >  1.25
+|   |   |--- num_amenidades <= 41.50
+|   |   |   |--- anuncios_del_anfitrion <= 8.50
+|   |   |   |   |--- huespedes <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- huespedes >  5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- anuncios_del_anfitrion >  8.50
+|   |   |   |   |--- recamaras <= 1.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- recamaras >  1.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |--- num_amenidades >  41.50
+|   |   |   |--- recamaras <= 1.50
+|   |   |   |   |--- num_amenidades <= 59.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- num_amenidades >  59.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- recamaras >  1.50
+|   |   |   |   |--- anuncios_del_anfitrion <= 2.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- anuncios_del_anfitrion >  2.50
+|   |   |   |   |   |--- truncated branch of depth 6
