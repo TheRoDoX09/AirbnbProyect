@@ -5,6 +5,7 @@ Análisis de ~27,700 alojamientos de Airbnb en la CDMX (datos de
 
 **Pregunta central:** ¿qué determina el precio por noche de un Airbnb en la CDMX?
 
+
 ## Estructura
 
 ```
@@ -84,3 +85,6 @@ cuesta ~25 % menos que un depto completo.
 - **Árbol de decisión:** métricas, matriz de confusión, importancia de variables,
   diagrama del árbol y sus reglas.
 - **Predictor:** describes un alojamiento y ambos modelos estiman su precio.
+
+
+Este es un cambio en la rama dev GG.
